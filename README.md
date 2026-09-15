@@ -164,6 +164,7 @@ Intent Router
     Audit        Response      ↓
                             Gmail Draft
                          (human review)
+```
 ## Technology
 
 - n8n
@@ -178,7 +179,7 @@ Intent Router
 ## Repository Structure
 
 ```text
-.
+
 ├── README.md
 ├── workflow/
 │   └── ai-customer-support-lead-qualification.json
@@ -197,3 +198,4 @@ Intent Router
     ├── architecture.md
     ├── routing-policy.md
     └── test-scenarios.md
+```
