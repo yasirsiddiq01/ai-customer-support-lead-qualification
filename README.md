@@ -164,3 +164,36 @@ Intent Router
     Audit        Response      ↓
                             Gmail Draft
                          (human review)
+## Technology
+
+- n8n
+- OpenAI
+- Google Sheets
+- Gmail
+- Webhooks
+- JavaScript
+- JSON
+- Deterministic business rules
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── workflow/
+│   └── ai-customer-support-lead-qualification.json
+├── screenshots/
+│   ├── 01_workflow_overview.png
+│   ├── 02_sales_high_value_path.png
+│   ├── 03_sales_api_response.png
+│   ├── 04_support_escalation_path.png
+│   ├── 05_support_api_response.png
+│   ├── 06_faq_approved_path.png
+│   ├── 07_faq_api_response.png
+│   ├── 08_google_sheets_audit_log.png
+│   ├── 09_gmail_human_review_draft.png
+│   └── 10_governance_controls.png
+└── docs/
+    ├── architecture.md
+    ├── routing-policy.md
+    └── test-scenarios.md
